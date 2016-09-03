@@ -1,21 +1,20 @@
 body {
-		font-family: monospace;
+	font-family: monospace;
 	background-color: rgb(200,200,200);
+	margin: 0;
 }
-#box {
 
-}
 table {
 	color: #ee3e80;
 	background-color: mintcream;
 	font-size: 18px;
 	border: 4px groove #A6B9B9;
-	vertical-align: center;
-
 }
-.goose {
+
+#display {
 	background-color: gray;
 }
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
@@ -25,11 +24,13 @@ table {
   user-select: none;           /* Non-prefixed version, currently
                                   not supported by any browser */
 }
+
 td {
 	margin: 0px;
 	padding: 20px;
 	border: 0px;
 }
+
 .op:hover {
 	background-color: gray;
 }
