@@ -1,39 +1,40 @@
 body {
+		font-family: monospace;
+	background-color: rgb(200,200,200);
+}
+#box {
+
+}
+table {
+	color: #ee3e80;
+	background-color: mintcream;
+	font-size: 18px;
+	border: 4px groove #A6B9B9;
+	vertical-align: center;
+
+}
+.goose {
 	background-color: gray;
-	font-family: monospace;
-	font-size: 2em;
-	text-align: center;
-	
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+td {
+	margin: 0px;
+	padding: 20px;
+	border: 0px;
+}
+.op:hover {
+	background-color: gray;
 }
 
-#wrap {
-	margin: 0 auto;
-}
-#disp{
-	background-color: mintcream;
-	display: inline-block;
-	margin: 0;
-	color: #ee3e80;
-	padding: 1em;
-}
-.btn {
-
-	background-color: mintcream;
-	display: inline-block;
-	margin: 0;
-	color: #ee3e80;
-	padding: 1em;
-}
-
-.row {
-	display: block;
-	margin: 0;
-}
-
-.inv {
-	background-color: mintcream;
-	display: inline-block;
-	margin: 0;
-	color: mintcream;
-	padding: 1em;
+.op:active {
+		color: white;
+	background-color: #ee3e80;
 }
