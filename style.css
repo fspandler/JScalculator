@@ -1,13 +1,38 @@
 body {
 	background-color: gray;
+	font-family: monospace;
+	font-size: 2em;
+	text-align: center;
 }
 
 #wrap {
-	font-family: monospace;
+	margin: 0 auto;
 }
-
+#disp{
+	background-color: mintcream;
+	display: inline-block;
+	margin: 0;
+	color: #ee3e80;
+	padding: 1em;
+}
 .btn {
 
 	background-color: mintcream;
+	display: inline-block;
+	margin: 0;
+	color: #ee3e80;
+	padding: 1em;
+}
 
+.row {
+	display: block;
+	margin: 0;
+}
+
+.inv {
+	background-color: mintcream;
+	display: inline-block;
+	margin: 0;
+	color: mintcream;
+	padding: 1em;
 }
