@@ -1,8 +1,13 @@
-h1 {
-	font-size: 2rem;
+body {
+	background-color: gray;
 }
 
-h3 {
-  font-family: Arial;
-  font-size:  30px;
+#wrap {
+	font-family: monospace;
+}
+
+.btn {
+
+	background-color: mintcream;
+
 }
