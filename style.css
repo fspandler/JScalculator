@@ -8,11 +8,15 @@ table {
 	color: #ee3e80;
 	background-color: mintcream;
 	font-size: 18px;
-	border: 4px groove #A6B9B9;
+	border: 6px groove #A6B9B9;
 }
 
 #display {
 	background-color: gray;
+	margin: 0px;
+	padding: 20px 5px 20px 5px;
+	border: 0px;
+	text-align: right;
 }
 
 .noselect {
@@ -25,17 +29,17 @@ table {
                                   not supported by any browser */
 }
 
-td {
+.btn, .blank {
 	margin: 0px;
 	padding: 20px;
 	border: 0px;
 }
 
-.op:hover {
+.btn:hover {
 	background-color: gray;
 }
 
-.op:active {
+.btn:active {
 		color: white;
 	background-color: #ee3e80;
 }
